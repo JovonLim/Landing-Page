@@ -1,12 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family:cursive;
   margin: 0px;
   padding: 0px;
 }
 
-.First-Section {
+button {
+  width: 100px;
+  border-radius: 8px;
+  font-family: cursive;
+  color:#F9FAF8;
+  background-color: #3882F6;
+}
+
+.First-Section, .Footnote {
   font-size: 20px;
-  background-color:beige;
+  color:#F9FAF8;
+  background-color:#1F2937;
 }
 
 .Headers nav {
@@ -27,6 +40,7 @@ body {
 }
 
 .Links a {
+  color:#F9FAF8;
   display: inline-block;
   padding: 10px;
   margin-left: 30px;
@@ -35,13 +49,7 @@ body {
 .Introduction {
   margin-left: 30vh;
   padding-bottom: 5vh;
-  font-size: 20px;
   display: flex;
-}
-
-.Introduction button {
-  font-family: cursive;
-  background-color: palevioletred;
 }
 
 .Introduction img {
@@ -51,9 +59,9 @@ body {
 }
 
 .Second-Section {
+  color: #1F2937;
   text-align: center;
   padding-top: 1vh;
-  background-color: cadetblue;
 }
 
 .Hobbies {
@@ -68,9 +76,61 @@ body {
 .Item {
   width: 300px;
   height: 300px;
+  font-size: 18px;
 }
 
 .Item img {
   width: 300px;
   height: 200px;
+}
+
+.Third-Section {
+  font-size: 36px;
+  color: #1F2937;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.Text {
+  width: 50%;
+  padding-top: 5vh;
+}
+
+.Fourth-Section {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  width: 1200px;
+  height: 250px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+.Container > .Text {
+  color:#F9FAF8;
+  font-size: 24px;
+  padding-left: 5vh;
+}
+
+.Container button {
+  height: 40px;
+  margin-top: 10vh;
+  margin-left: 20vh;
+  border-color: white;
+}
+
+.Footnote {
+  height: 80px;
+  padding-top: 2vh;
+  text-align: center;
 }
