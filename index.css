@@ -1,0 +1,76 @@
+body {
+  font-family:cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+.First-Section {
+  font-size: 20px;
+  background-color:beige;
+}
+
+.Headers nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+.Headers img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.Links {
+  margin-left: auto;
+  margin-right: 10vh; 
+}
+
+.Links a {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.Introduction {
+  margin-left: 30vh;
+  padding-bottom: 5vh;
+  font-size: 20px;
+  display: flex;
+}
+
+.Introduction button {
+  font-family: cursive;
+  background-color: palevioletred;
+}
+
+.Introduction img {
+  margin-left: 20vh;
+  width:700px;
+  height:300px;
+}
+
+.Second-Section {
+  text-align: center;
+  padding-top: 1vh;
+  background-color: cadetblue;
+}
+
+.Hobbies {
+  width: 1500px;
+  height: 400px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item {
+  width: 300px;
+  height: 300px;
+}
+
+.Item img {
+  width: 300px;
+  height: 200px;
+}
